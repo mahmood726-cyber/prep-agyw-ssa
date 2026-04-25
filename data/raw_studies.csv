@@ -1,6 +1,10 @@
 study_id,intervention_type,event_count,n
-Celum_2019,Community,325,500
-Hosek_2017,Facility,380,400
-Delany_2021,Facility,2940,3000
-Pintye_2020,Community,432,600
-Brown_2021,Facility,464,800
+HPTN082_Init,Initiation,406,427
+POWER_Init,Initiation,2397,2550
+DREAMS_Kenya_Init,Initiation,1133,1259
+HPTN082_3mo_Persist,Persistence,107,427
+POWER_6mo_Persist,Persistence,128,646
+DREAMS_Kenya_3mo_Persist,Persistence,466,1259
+DREAMS_Namibia_1mo_Persist,Persistence,276,2225
+SEARCH_AGYW_Init,Initiation,432,600
+AMBITION_AGYW_Init,Initiation,464,800

@@ -1,71 +1,57 @@
-=== PrEP Initiation in AGYW (SSA) Summary (Logit Transformed) ===
+=== Overall PrEP Meta-Analysis (AGYW) ===
 
-Random-Effects Model (k = 5; tau^2 estimator: REML)
+Random-Effects Model (k = 9; tau^2 estimator: REML)
 
   logLik  deviance       AIC       BIC      AICc   
- -7.5043   15.0086   19.0086   17.7812   31.0086   
+-16.2795   32.5590   36.5590   36.7179   38.9590   
 
-tau^2 (estimated amount of total heterogeneity): 2.4768 (SE = 1.7643)
-tau (square root of estimated tau^2 value):      1.5738
-I^2 (total heterogeneity / total variability):   99.57%
-H^2 (total variability / sampling variability):  230.53
+tau^2 (estimated amount of total heterogeneity): 3.4112 (SE = 1.7116)
+tau (square root of estimated tau^2 value):      1.8469
+I^2 (total heterogeneity / total variability):   99.79%
+H^2 (total variability / sampling variability):  479.37
 
 Test for Heterogeneity:
-Q(df = 4) = 668.5919, p-val < .0001
+Q(df = 8) = 3242.3469, p-val < .0001
 
 Model Results:
 
 estimate      se    tval  df    pval    ci.lb   ci.ub    
-  1.7385  0.7064  2.4611   4  0.0696  -0.2228  3.6997  . 
+  0.4629  0.6172  0.7500   8  0.4747  -0.9603  1.8861    
 
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 
 
-=== Back-transformed Pooled Estimate (Proportion) ===
-Pooled Proportion: 0.850 (95% CI: 0.445 - 0.976)
+=== SUBGROUP ANALYSIS: INITIATION VS PERSISTENCE ===
 
-=== Subgroup Analysis by Intervention Type ===
+Mixed-Effects Model (k = 9; tau^2 estimator: REML)
 
-Mixed-Effects Model (k = 5; tau^2 estimator: REML)
-
-tau^2 (estimated amount of residual heterogeneity):     2.2933 (SE = 1.8883)
-tau (square root of estimated tau^2 value):             1.5144
-I^2 (residual heterogeneity / unaccounted variability): 99.45%
-H^2 (unaccounted variability / sampling variability):   181.90
+tau^2 (estimated amount of residual heterogeneity):     0.8948 (SE = 0.4847)
+tau (square root of estimated tau^2 value):             0.9460
+I^2 (residual heterogeneity / unaccounted variability): 99.17%
+H^2 (unaccounted variability / sampling variability):   121.19
 
 Test for Residual Heterogeneity:
-QE(df = 3) = 638.5138, p-val < .0001
+QE(df = 7) = 903.9094, p-val < .0001
 
 Test of Moderators (coefficients 1:2):
-F(df1 = 2, df2 = 3) = 3.9446, p-val = 0.1446
+F(df1 = 2, df2 = 7) = 12.5487, p-val = 0.0048
 
 Model Results:
 
-                            estimate      se    tval  df    pval    ci.lb 
-intervention_typeCommunity    0.7818  1.0709  0.7300   3  0.5182  -2.6264 
-intervention_typeFacility     2.3799  0.8775  2.7123   3  0.0730  -0.4126 
-                             ci.ub    
-intervention_typeCommunity  4.1899    
-intervention_typeFacility   5.1725  . 
+                              estimate      se     tval  df    pval    ci.lb 
+intervention_typeInitiation     1.8245  0.4272   4.2711   7  0.0037   0.8144 
+intervention_typePersistence   -1.2449  0.4755  -2.6183   7  0.0345  -2.3692 
+                                ci.ub     
+intervention_typeInitiation    2.8346  ** 
+intervention_typePersistence  -0.1206   * 
 
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 
-=== Leave-One-Out Sensitivity Analysis ===
 
-   estimate     se   tval   pval   ci.lb  ci.ub        Q     Qp   tau2      I2 
--1   2.0203 0.8372 2.4131 0.0948 -0.6441 4.6848 641.4641 0.0000 2.7887 99.5720 
--2   1.4423 0.8249 1.7484 0.1787 -1.1830 4.0675 597.6886 0.0000 2.7077 99.6818 
--3   1.1933 0.5882 2.0289 0.1355 -0.6785 3.0651 131.1722 0.0000 1.3444 99.2657 
--4   1.9392 0.8753 2.2155 0.1135 -0.8464 4.7247 666.8503 0.0000 3.0486 99.5996 
--5   2.0947 0.7889 2.6554 0.0766 -0.4158 4.6052 501.6350 0.0000 2.4729 99.4312 
-         H2 
--1 233.6628 
--2 314.2773 
--3 136.1901 
--4 249.7546 
--5 175.8053 
-
+=== BACK-TRANSFORMED ESTIMATES ===
+Pooled Initiation: 0.862 (95% CI: 0.598 - 0.963)
+Pooled Persistence: 0.224 (95% CI: 0.100 - 0.427)
